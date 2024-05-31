@@ -8,8 +8,8 @@ while True:
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
     card = cardDetector.detectMultiScale(gray,
-                                       scaleFactor=5,
-                                       minNeighbors=91,
+                                       scaleFactor=3.8,
+                                       minNeighbors=150,
                                        minSize=(70,78))
     
     for (x,y,w,h) in card:

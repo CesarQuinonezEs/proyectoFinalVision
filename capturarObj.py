@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 x1, y1 = 190, 80
 x2, y2 = 450, 398
 
-count = 0
+count = 38
 while True:
 
 	ret, frame = cap.read()
